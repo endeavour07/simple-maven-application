@@ -6,9 +6,7 @@ pipeline {
         
         stage('Build'){
             
-            agent {
-                label "myslavemaven"
-            }
+
           
           steps {
              
